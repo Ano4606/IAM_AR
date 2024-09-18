@@ -1,0 +1,54 @@
+{
+    "name": "TouchManager",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "3aa2893f-eb49-4661-ae59-c1be223d6bbd",
+            "actions": [
+                {
+                    "name": "MoveObject",
+                    "type": "Value",
+                    "id": "2e9849cc-d39e-4030-a8e4-d4c3121f3e01",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slide",
+                    "type": "Value",
+                    "id": "2516a15b-08a7-43cc-b2b4-a0b2186719a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8e3043f2-011a-40b7-9e46-fb02e17e47ea",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1baadb39-3eda-4f98-a4b0-d2f252e1c063",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
